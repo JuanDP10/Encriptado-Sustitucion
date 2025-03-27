@@ -87,7 +87,7 @@ La clase `SubstitutionCipher` es el corazón del proyecto. Implementa las siguie
 - **Clave generada**: `MANGOBCDEFHIJKLPQRSTUVWXYZ`
 - **Texto cifrado**: `DLIM JUKGL`
   
-## 📸 Capturas de pantalla
+## 📸 Captura de pantalla
 ![image](https://github.com/user-attachments/assets/c5f5efc1-d77d-4507-a717-9e041138d974)
 
 
