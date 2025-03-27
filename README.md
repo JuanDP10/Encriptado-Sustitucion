@@ -36,6 +36,7 @@ Encriptado-Sustitucion/
 ├── index.html
 ├── styles.css
 ├── script.js
+├── image.png
 ```
 
 ## 🧩 Clase `SubstitutionCipher`
