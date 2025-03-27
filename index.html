@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptado por sustitución</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image.png">
+</head>
+<body>
+    <div class="container">
+        <div class="terminal">
+            <h1>ENCRIPTADO POR SUSTITUCIÓN</h1>
+            
+            <div class="input-section">
+                <textarea id="inputText" placeholder="Introduce tu texto aquí..."></textarea>
+                
+                <div class="key-section">
+                    <input type="text" id="customKey" placeholder="Clave de sustitución (opcional)">
+                    <div class="mode-toggle">
+                        <button id="encryptBtn">ENCRIPTAR</button>
+                        <button id="decryptBtn">DESENCRIPTAR</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="output-section">
+                <h3>RESULTADO:</h3>
+                <textarea id="outputText" readonly></textarea>
+                <button id="copyBtn">COPIAR</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

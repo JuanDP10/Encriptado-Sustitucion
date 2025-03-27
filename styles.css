@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #00ff41;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.terminal {
+    background-color: #000000;
+    border: 2px solid #00ff41;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #00ff41;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px; /* Tamaño fijo para ambos textarea */
+    background-color: #000;
+    color: #00ff41;
+    border: 1px solid #00ff41;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Orbitron', monospace;
+    resize: none; /* Elimina la capacidad de redimensionar */
+    box-sizing: border-box; /* Incluye padding en el ancho total */
+}
+
+.input-section, .output-section {
+    margin-bottom: 20px;
+}
+
+.key-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+input[type="text"] {
+    background-color: #000;
+    color: #00ff41;
+    border: 1px solid #00ff41;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.mode-toggle {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #00ff41;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #00cc33;
+    transform: scale(1.05);
+}
+
+#copyBtn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .terminal {
+        padding: 15px;
+    }
+}
