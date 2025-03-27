@@ -32,7 +32,7 @@ Esta clave se genera tomando la palabra "DEFAULT" (sin caracteres repetidos) seg
 ## Estructura del Proyecto
 
 ```plaintext
-Encriptado-Sustitución/
+Encriptado-Sustitucion/
 ├── index.html
 ├── styles.css
 ├── script.js
@@ -64,7 +64,7 @@ La clase `SubstitutionCipher` es el corazón del proyecto. Implementa las siguie
 
 1. Clona este repositorio en tu máquina local.
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/JuanDP10/Encriptado-Sustitucion.git
    ```
 2. Abre el archivo `index.html` en tu navegador.
 3. Ingresa el texto que deseas encriptar o desencriptar en el campo correspondiente.
