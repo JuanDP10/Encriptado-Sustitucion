@@ -1,15 +1,15 @@
-# Encriptador por Sustitución
+# 🔐 Encriptado por Sustitución
 
 Este proyecto es una aplicación que permite encriptar y desencriptar texto utilizando un cifrado por sustitución. Los usuarios pueden introducir un texto, especificar una clave de sustitución personalizada (opcional) y generar el texto cifrado o descifrado.
 
-## Características
+## ✨ Características
 
-- Permite encriptar texto ingresado por el usuario.
-- Proporciona la opción de desencriptar texto previamente cifrado.
-- Soporte para claves de sustitución personalizadas o el uso de una clave por defecto.
-- Interfaz amigable y fácil de usar con botones para encriptar, desencriptar y copiar el texto resultado.
+- ✅ Permite encriptar texto ingresado por el usuario.
+- 🔄 Proporciona la opción de desencriptar texto previamente cifrado.
+- 🔑 Soporte para claves de sustitución personalizadas o el uso de una clave por defecto.
+- 🖥️ Interfaz amigable y fácil de usar con botones para encriptar, desencriptar y copiar el texto resultado.
 
-## Clave por Defecto
+## 🔑 Clave por Defecto
 
 Cuando no se proporciona una clave de sustitución personalizada, el programa utiliza la siguiente clave generada automáticamente:
 
@@ -17,19 +17,19 @@ Cuando no se proporciona una clave de sustitución personalizada, el programa ut
 
 Esta clave se genera tomando la palabra "DEFAULT" (sin caracteres repetidos) seguida del resto de las letras del alfabeto en orden alfabético excluyendo las letras ya presentes en "DEFAULT".
 
-## Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas
 
 - **HTML5**: Para la estructura de la aplicación.
 - **CSS3**: Para el diseño y estilo visual.
 - **JavaScript (ES6)**: Para la lógica de encriptación y desencriptación.
 
-## Archivos Principales
+## 📁 Archivos Principales
 
 1. **index.html**: Estructura de la interfaz de usuario.
 2. **styles.css**: Estilos visuales de la aplicación.
 3. **script.js**: Contiene la clase `SubstitutionCipher` y la lógica de manipulación de eventos.
 
-## Estructura del Proyecto
+## 📂 Estructura del Proyecto
 
 ```plaintext
 Encriptado-Sustitucion/
@@ -38,7 +38,7 @@ Encriptado-Sustitucion/
 ├── script.js
 ```
 
-## Clase `SubstitutionCipher`
+## 🧩 Clase `SubstitutionCipher`
 
 La clase `SubstitutionCipher` es el corazón del proyecto. Implementa las siguientes funcionalidades:
 
@@ -60,7 +60,7 @@ La clase `SubstitutionCipher` es el corazón del proyecto. Implementa las siguie
 5. **`transform(text, sourceAlphabet, targetAlphabet)`**:
    - Realiza la transformación de caracteres según los alfabetos de origen y destino.
 
-## Instrucciones de Uso
+## 🚀 Instrucciones de Uso
 
 1. Clona este repositorio en tu máquina local.
    ```bash
@@ -72,7 +72,7 @@ La clase `SubstitutionCipher` es el corazón del proyecto. Implementa las siguie
 5. Haz clic en "ENCRIPTAR" para cifrar el texto o en "DESENCRIPTAR" para descifrarlo.
 6. Copia el resultado usando el botón "COPIAR" si es necesario.
 
-## Ejemplo de Uso
+## 💡 Ejemplo de Uso
 
 ### Caso 1: Sin Clave Personalizada
 
@@ -87,7 +87,6 @@ La clase `SubstitutionCipher` es el corazón del proyecto. Implementa las siguie
 - **Clave generada**: `MANGOBCDEFHIJKLPQRSTUVWXYZ`
 - **Texto cifrado**: `DLIM JUKGL`
 
-## Licencia
+## 📜 Licencia
 
 Este proyecto está bajo la Licencia MIT. Puedes consultar el archivo `LICENSE` para más detalles.
-
